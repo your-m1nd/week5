@@ -1,0 +1,148 @@
+h1 {
+width: 754px;
+height: 63px;
+left: 145px;
+top: 120px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 54px;
+line-height: 63px;
+color: #003395;}
+
+.sky-section {
+
+width: 1440px;
+height: 372px;
+left: 0px;
+top: 0px;
+background-size: cover;
+background: url(/assets/images/sky.jpg);
+}
+
+h2 {
+
+width: 899px;
+height: 24px;
+left: 148px;
+top: 210px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+color: #000000;
+}
+
+.menu {
+display: flex;
+width: 1440px;
+height: 75px;
+left: 0px;
+top: 372px;
+background: #003395;
+}
+
+ul li {
+list-style-type: none;
+display: inline-flex;
+width:auto;  
+text-decoration-line: underline;
+color: #30233D;
+}
+
+a { 
+text-decoration: none;
+color:#FFFFFF;
+width: 100px;
+height: 30px;
+left: 527px;
+top: 330px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 207.9%;
+letter-spacing: 2px;
+}
+
+A:hover { 
+color: yellow;
+}
+
+
+.flex-container {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-self: flex-end;
+}
+
+.p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #30233D;
+}
+
+p:first-letter {
+color: red;
+}
+
+h3,h4,h5 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 32px;
+
+height: 32px;
+width: 290px;
+left: 148px;
+top: 1010px;
+border-radius:0%;
+
+color: #003395;
+text-decoration: none;
+border-top: 2px solid #003395;
+border-bottom: 2px solid #003395;
+}
+
+h6 {
+    
+justify-content: flex-end;
+
+background: #24B0FF;
+
+left: 67.15%;
+right: 12.71%;
+top: 57.54%;
+bottom: 39.89%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+p {text-indent: 1em;}
+p:first-child {text-indent: 0;
+}
+
+footer {
+text-align: right;
+background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+font-family: 'Pacifico'; 
+font-style: italic;
+color: #FCFCFC;
+/* Bg */
+width: 1440px;
+height: 148px;
+left: 0px;
+top: 1313px;
+}
